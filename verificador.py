@@ -8,7 +8,7 @@ st.title("🧠 Buscador Semántico de Materiales")
 @st.cache_data
 def cargar_datos():
     # Asegúrate de que este es tu archivo real
-    return pd.read_excel('catalogo.xlsx')
+    return pd.read_excel('CATALOGO.xlsx')
 
 df = cargar_datos()
 col_desc = 'Texto breve material'
